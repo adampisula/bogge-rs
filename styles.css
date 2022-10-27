@@ -1,0 +1,19 @@
+.graph-component {
+  background-color: aquamarine;
+  height: 400px;
+  width: 70%;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  transition: all cubic-bezier(.51,1.11,.52,.97) 150ms;
+  cursor: pointer;
+}
+
+.graph-component:hover {
+  transform: scale(0.95);
+}
+
+.graph-component .graph-component__bar {
+  background-color: green;
+  flex: 1;
+}
